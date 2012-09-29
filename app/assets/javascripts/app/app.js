@@ -1,0 +1,1 @@
+Synthresin = Ember.Application.create();
