@@ -1,0 +1,13 @@
+<table>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each contacts}}
+			{{view App.ShowContactView contactBinding="this"}}
+		{{/each}}
+	</tbody>
+</table>

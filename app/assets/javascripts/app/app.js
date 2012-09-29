@@ -1,1 +1,2 @@
-Synthresin = Ember.Application.create();
+SynthApp = Ember.Application.create();
+
